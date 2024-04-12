@@ -1,8 +1,29 @@
-# React + Vite
+<h2 align="center">Personal Website v2.0</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src=https://ziadoua.github.io/m3-Markdown-Badges/badges/MyPortfolio/myportfolio2.svg> 
+</p>
 
-Currently, two official plugins are available:
+![Preview](readme.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/ViteJS/vitejs1.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript2.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react2.svg"><br />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/TailwindCSS/tailwindcss1.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Express/express2.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/npm/npm2.svg">
+</p>
+
+<hr />
+
+<p align="center">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode2.svg"><br />
+  
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceGPLv3/licencegplv31.svg">
+</p>
+
+
