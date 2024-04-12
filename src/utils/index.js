@@ -12,7 +12,7 @@ export const navigation = [
   {
     id: "2",
     title: "Resume",
-    url: "/Resumee",
+    url: "/Resume",
   },
   {
     id: "3",

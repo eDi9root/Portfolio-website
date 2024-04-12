@@ -2,6 +2,8 @@ import Nav from "./pages/Nav"
 import Home from "./pages/Home/Home"
 import Footer from "./pages/Footer"
 import Projects from "./pages/Projects/Projects"
+import Resume from "./pages/Resume/Resume"
+import Contact from "./pages/Contact/Contact"
 
 import Particles from "./Particles"
 import './index.css'
@@ -23,9 +25,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Projects" element={<Projects />} />
-        {/* <Route path="/resume" element={<Resume />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blogs" element={<Blogs />} /> */}
+        {/* <Route path="/blogs" element={<Blogs />} /> */}
       </Routes>
       <Footer />
     </Router>

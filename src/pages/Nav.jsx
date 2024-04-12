@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { navigation } from "../utils/index";
-import { MobileMenu } from "./Design/MobileHeader";
+import MobileMenu from "./Design/MobileHeader";
 import MenuSvg from '../assets/MenuSvg';
 import Motion from '../pages/Design/Motion'
 import { disablePageScroll, enablePageScroll } from 'scroll-lock'

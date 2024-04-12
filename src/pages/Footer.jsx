@@ -15,7 +15,7 @@ function Footer() {
                 <ul className="flex gap-5 flex-wrap">
                     {SOCIALS.map((item) => ( 
                         <a key={item.id} href={item.url} target="_blank" className="flex items-center justify-center
-                        w-10 h-10 bg-n-7 rounded-full transition-colors hover: bg-neutral-600">
+                        w-10 h-10 bg-n-7 rounded-full transition-colors hover: bg-neutral-600 hover:text-zinc-300">
                             <p className="w-[16] h-[16]">
                                 {< item.img />}
                             </p>

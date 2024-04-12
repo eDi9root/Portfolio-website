@@ -103,8 +103,45 @@ export const SOCIALS = [
 
 export const PROJECTS = [
     {
+        title: "CocktailCrafter",
+        front: "Designed Cocktail crafter to find cocktails based on ingredients you have",
+        content: "Designed Cocktail crafter based on CocktailDb API, this is v1.0 prototype. Thus, only one ingredient can be entered. v2.0 will be implemented soon with some features that analyze the image you take to find cocktails can make",
+        url: "https://github.com/eDi9root/CocktailCrafter",
+        img: "/src/assets/projects/cocktail.png"
+    },
+    {
+        title: "Blogs",
+        front: "Designed personal blogs, you can visit and enjoy.",
+        content: "Built with Javascript, Next.js, NPM, VsCode, TailwindCss",
+        url: "#",
+        img: "/src/assets/projects/blogs.jpg"
+    },
+    {
+        title: "Google_Cybersecurity",
+        front: "Google Cybersecurity certificate, included a simple portfolio files in Github",
+        content: "With basic knowledge of cybersecurity, I analyzed some tools such as packet sniffer and wireshark, and created portfolio. This is a practice step to doing the actual work.",
+        url: "https://github.com/eDi9root/google_cybersecurity",
+        img: "/src/assets/projects/p3.jpg"
+    },
+    {
         title: "ANTQUANT",
-        content: "Designed and built the development environment by applying the securities firm APIs. Based on the concept of quantitative investing, I created my own strategy and applied it by extracted data through web crawling and APIs, and managed it using an AWS database."
-
+        front: "Designed and built the development environment by applying the securities firm APIs.",
+        content: "Designed and built the development environment by applying the securities firm APIs. Based on the concept of quantitative investing, I created my own strategy and applied it by extracted data through web crawling and APIs, and managed it using an AWS database.",
+        url: "https://github.com/eDi9root/SystemTrading",
+        img: "/src/assets/projects/p1.jpg"
+    },
+    {
+        title: "FTZ_Writeup",
+        front: "Built my own environments and analyze the principles of system hacking step by step based on hackerschool ftz",
+        content: "Using hackerschool ftz, I analyze the principles of system hacking step by step. At each stage, I identify and analyze problems, then execute attacks. I explore various methods and principles such as memory manipulation, backdoors, buffer overflows, and conduct analysis through reverse engineering.",
+        url: "https://github.com/eDi9root/FTZ-Writeup",
+        img: "/src/assets/projects/p2.jpg"
+    },
+    {
+        title: "Chess_game",
+        front: "Designed a chess engine using C++ programming language and algorithms",
+        content: "Designed a chess engine using c++ programming language and algorithms. Also, adopted some design patterns such as observer, decorator, factory, and template. Chess v2.0 is currently being built.",
+        url: "https://github.com/eDi9root/CS246_CHESS",
+        img: "/src/assets/projects/p4.jpg"
     },
 ]
