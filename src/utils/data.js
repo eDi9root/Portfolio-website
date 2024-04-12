@@ -30,7 +30,7 @@ import {
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: frontend,
+        icon: {frontend},
         skills: [
             { skill: "HTML5", Img: FaHtml5, percent: "70%" },
             { skill: "CSS3", Img: FaCss3, percent: "80%" },
