@@ -30,7 +30,7 @@ import {
  import tools from "/tools.png"
  import cyber from "/cyber.png"
  import blogs from "/blogs.jpg"
- import cocktail from "/cocktail.PNG"
+ import cocktail from "/cocktail.png"
  import p1 from "/p1.jpg"
  import p2 from "/p2.jpg"
  import p3 from "/p3.jpg"
