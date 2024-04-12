@@ -25,11 +25,15 @@ import {
  import { TbBrandCpp, TbBrandVscode } from "react-icons/tb";
  import { MdOutlineSecurity, MdCrisisAlert, MdEmail } from "react-icons/md";
  import { ImBlog } from "react-icons/im";
+ import frontend from "/frontend.png"
+ import backend from "/backend.png"
+ import tools from "/tools.png"
+ import cyber from "/cyber.png"
 
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "/public/frontend.png",
+        icon: frontend,
         skills: [
             { skill: "HTML5", Img: FaHtml5, percent: "70%" },
             { skill: "CSS3", Img: FaCss3, percent: "80%" },
@@ -40,7 +44,7 @@ export const SKILLS = [
     },
         {
         title: "Backend",
-        icon: "/public/backend.png",
+        icon: backend,
         skills: [
             { skill: "Next.js", Img: SiNextdotjs, percent: "60%"  },
             { skill: "Node.js", Img: FaNodeJs, percent: "65%"  },
@@ -52,7 +56,7 @@ export const SKILLS = [
     },
         {
         title: "Tools",
-        icon: "/public/tools.png",
+        icon: tools,
         skills: [
             { skill: "C++", Img: TbBrandCpp, percent: "90%" },
             { skill: "Python", Img: FaPython, percent: "85%" },
@@ -65,7 +69,7 @@ export const SKILLS = [
     },
         {
         title: "Security",
-        icon: "/public/cyber.png",
+        icon: cyber,
         skills: [
             { skill: "SIEM", Img: MdOutlineSecurity, percent: "70%" },
             { skill: "IDS", Img: MdCrisisAlert, percent: "70%" },
