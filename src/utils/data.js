@@ -25,11 +25,12 @@ import {
  import { TbBrandCpp, TbBrandVscode } from "react-icons/tb";
  import { MdOutlineSecurity, MdCrisisAlert, MdEmail } from "react-icons/md";
  import { ImBlog } from "react-icons/im";
+ import { frontend } from "../assets/frontend.png"
 
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "../assets/frontend.png",
+        icon: frontend,
         skills: [
             { skill: "HTML5", Img: FaHtml5, percent: "70%" },
             { skill: "CSS3", Img: FaCss3, percent: "80%" },
