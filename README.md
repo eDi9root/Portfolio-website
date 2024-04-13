@@ -19,10 +19,17 @@
 
 <hr />
 
-<h2>How to setup</h2>
+<h2>How to run</h2>
+<h3>Local Setup</h3>
 
 ```
 git clone (this repository)
+cd (this project)
+```
+
+<h3>Local Setup</h3>
+
+```
 npm i
 npm run dev
 Open localhost:5173
