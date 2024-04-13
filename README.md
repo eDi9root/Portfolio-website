@@ -20,6 +20,7 @@
 <hr />
 
 <h2>How to setup</h2>
+
 ```
 git clone (this repository)
 npm i
