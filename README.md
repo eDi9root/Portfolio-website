@@ -19,6 +19,14 @@
 
 <hr />
 
+<h2>How to setup</h2>
+```
+git clone (this repository)
+npm i
+npm run dev
+Open localhost:5173
+```
+
 <p align="center">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode2.svg"><br />
