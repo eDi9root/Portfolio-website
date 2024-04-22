@@ -8,7 +8,7 @@ const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
          ${isActive ? "active" : ""}`}
         onClick={() => onClick()}
     >
-        <div className='md:w-16 md:h-16 w-10 h-10 flex items-center justify-center absolute top-[-1rem] left-[-1rem] border-[1.5px] rounded-xl blur-[0.5]  bg-zinc-800'>
+        <div className='md:w-16 md:h-16 w-10 h-10 flex items-center justify-center absolute top-[-1rem] left-[-1rem] border-[1.5px] rounded-xl blur-[0.5]  bg-zinc-800 hover:bg-zinc-600'>
             <img className='md:w-[2.4rem] w-[1.5rem] h-auto object-contain' src={ iconUrl } alt={ title } />
         </div>
         <span className='md:text-[1.3rem] text-[0.8rem] flex items-center justify-center font-bold'>{ title }</span>
