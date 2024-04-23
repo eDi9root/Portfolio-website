@@ -13,13 +13,13 @@ const ContactCard = () => {
   return (
     <div className="divide-y divide-zinc-400 border-4 rounded-xl border-zinc-700">
       <div className="grid grid-cols-2 divide-x divide-zinc-500 text-zinc-100">
-        <LinkBox Icon={SiGoogle} target="_blank" href="mailto:ojs3771o@gmail.com" />
-        <LinkBox Icon={SiLinkedin} target="_blank" href="https://www.linkedin.com/in/junseok-oh/" />
+        <LinkBox Icon={SiGoogle} href="mailto:ojs3771o@gmail.com" />
+        <LinkBox Icon={SiLinkedin} href="https://www.linkedin.com/in/junseok-oh/" />
       </div>
       <div className="grid grid-cols-3 divide-x py-2 divide-zinc-500 text-zinc-100">
-        <LinkBox Icon={SiInstagram} target="_blank" href="https://www.instagram.com/junseok0h/" />
-        <LinkBox Icon={SiGithub} target="_blank" href="https://github.com/eDi9root" />
-        <LinkBox Icon={SiBloglovin} target="_blank" href="#" />
+        <LinkBox Icon={SiInstagram} href="https://www.instagram.com/junseok0h/" />
+        <LinkBox Icon={SiGithub} href="https://github.com/eDi9root" />
+        <LinkBox Icon={SiBloglovin} href="#" />
       </div>
     </div>
   );
@@ -97,6 +97,7 @@ const LinkBox = ({ Icon, href }) => {
   return (
     <a
       href={href}
+      target="_blank"
       onMouseEnter={(e) => {
         handleMouseEnter(e);
       }}
