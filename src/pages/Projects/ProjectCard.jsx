@@ -67,7 +67,7 @@ const ProjectCard = (props) => {
             transformStyle: "preserve-3d",
             transform,
           }}
-          className="relative h-[25rem] lg:w-[24rem] w-full rounded-xl bg-gradient-to-br from-zinc-900 to-zinc-900"
+          className="relative h-[25rem] lg:w-[24rem] w-full rounded-xl bg-gradient-to-br from-zinc-600/10 to-zinc-800/10"
         >
           <div
             style={{
