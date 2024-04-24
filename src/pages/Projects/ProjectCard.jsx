@@ -8,7 +8,7 @@ import {
 import { FiGithub } from "react-icons/fi";
 import { MdReadMore } from "react-icons/md";
 import Drawer from './Drawer'
-import { disablePageScroll, enablePageScroll } from 'scroll-lock'
+
 
 
 const ROTATION_RANGE = 32.5;
@@ -17,12 +17,6 @@ const HALF_ROTATION_RANGE = 32.5 / 2;
 
 const ProjectCard = (props) => {
   const [open, setOpen] = useState(false)
-
-  if (open) {
-    disablePageScroll()
-  } else {
-    enablePageScroll()
-  }
 
   const ref = useRef(null);
 
