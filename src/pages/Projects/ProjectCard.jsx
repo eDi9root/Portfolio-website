@@ -8,7 +8,7 @@ import {
 import { FiGithub } from "react-icons/fi";
 import { MdReadMore } from "react-icons/md";
 import Drawer from './Drawer'
-import { disablePageScroll, enablePageScroll } from 'scroll-lock'
+
 
 
 const ROTATION_RANGE = 32.5;
@@ -17,12 +17,6 @@ const HALF_ROTATION_RANGE = 32.5 / 2;
 
 const ProjectCard = (props) => {
   const [open, setOpen] = useState(false)
-
-  if (open) {
-    disablePageScroll()
-  } else {
-    enablePageScroll()
-  }
 
   const ref = useRef(null);
 
@@ -67,7 +61,7 @@ const ProjectCard = (props) => {
             transformStyle: "preserve-3d",
             transform,
           }}
-          className="relative h-[25rem] lg:w-[24rem] w-full rounded-xl bg-gradient-to-br from-zinc-900 to-zinc-900"
+          className="relative h-[25rem] lg:w-[24rem] w-full rounded-xl bg-gradient-to-br from-zinc-600/10 to-zinc-800/10"
         >
           <div
             style={{
