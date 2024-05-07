@@ -22,6 +22,6 @@ export const navigation = [
   {
     id: "4",
     title: "Blogs",
-    url: "/Blogs",
+    url: "https://edi9root-blog.vercel.app/",
   },
 ];

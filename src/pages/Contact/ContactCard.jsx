@@ -19,7 +19,7 @@ const ContactCard = () => {
       <div className="grid grid-cols-3 divide-x py-2 divide-zinc-500 text-zinc-100">
         <LinkBox Icon={SiInstagram} href="https://www.instagram.com/junseok0h/" />
         <LinkBox Icon={SiGithub} href="https://github.com/eDi9root" />
-        <LinkBox Icon={SiBloglovin} href="#" />
+        <LinkBox Icon={SiBloglovin} href="https://edi9root-blog.vercel.app/" />
       </div>
     </div>
   );
